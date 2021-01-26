@@ -1,0 +1,18 @@
+#root > header > div > div > div > a.home > img{
+    border: none;
+}
+#root > header > div.home > div > div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#tiposPokemon {
+    border: none !important;
+}
+#root > section.index > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}

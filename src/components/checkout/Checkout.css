@@ -1,0 +1,74 @@
+#root > section.checkout.checkout > div > div > img {
+    width: 90px;
+}
+#root > section.checkout.checkout > div > hr {
+    width: 100%;
+}
+#root > section.checkout > div > div > span > i {
+    position: absolute;
+    right: 30px;
+}
+@media only screen and (max-width: 991px) {
+    #root > section.checkout > div > div.image {
+        display: none;
+    }
+    #root > section.checkout > div > div.col-6,
+    #root > section.checkout > div > div.col-8{
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+    #root > section.checkout > div > div:nth-child(4) > span > i {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 0;
+    }
+    #root > section.checkout > div:nth-child(2) > div:nth-child(4) {
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #root > section.checkout > div:nth-child(2) > div:nth-child(4) {
+        display: none;
+    }
+    #root > section.checkout > div > div:nth-child(3),
+    #root > section.checkout > div > div:nth-child(4),
+    #root > section.checkout > div > div.col-2,
+    #root > section.checkout > div > div:nth-child(3) {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    #root > section.checkout > div > div:nth-child(4) {
+        height: 40px;
+    }
+    #root > section.checkout > div > hr {
+        width: 90%; 
+    }
+    #root > section.checkout > div:nth-child(2) {
+        margin-top: 0px;
+    }
+}
+#root > section.checkout > div > div.totalPedido {
+    text-align: right;
+    font-size: 20px;
+}
+#root > section.checkout > div > div.buttonConcluir {
+    margin-top: 10px;
+    text-align: right;
+}
+/* definindo tipos de poke estilo */
+#root > section.normal > div > div > a.btn-secondary {
+    background-color:#76515c !important;
+    border-color: #76515c !important;
+}
+#root > section.fogo > div > div > a.btn-secondary  {
+    background-color: #ae371d !important;
+    border-color: #ae371d !important;
+}
+#root > section.grama > div > div > a.btn-secondary  {
+    background-color:#3f7d3a !important;
+    border-color: #3f7d3a !important;
+}

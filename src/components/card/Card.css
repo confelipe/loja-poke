@@ -1,0 +1,88 @@
+#root > section.cardCatalog > div > div.col-xs > div.card {
+    border: none;
+}
+#root > section.cardCatalog > div > div.col-xs > div.card > div > div > div:nth-child(1) > p > b {
+    font-size: 18px;
+}
+#root > section.cardCatalog > div > div.col-xs > div.card > div > div > div:nth-child(2) > a {
+    float: right;
+}
+#root > section.cardCatalog > div:nth-child(2) {
+    margin-top: 25px;
+}
+#root > section.cardCatalog > div:nth-child(2) > nav > ul > li > a {
+    color: #143d75;
+}
+#root > section.cardCatalog > div:nth-child(2) > nav > ul > li.page-item.active > a {
+    color: white;
+    background: #143d75;
+    border: #143d75;
+}
+#root > section.cardCatalog > div:nth-child(2) {
+    overflow: hidden;
+}
+#openListCart > span {
+    position: absolute;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background: #143d75;
+    border-radius: 100%;
+    top: 6px;
+    right: -15px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+#root > section > div > div > div > div > div > div > a.btn-secondary {
+    background-color: #3367b0 !important;
+    border-color: #3367b0 !important;
+}
+/* definindo css tipo de poke */
+#root > section.fogo > div > div > div > div > div > div > a.btn-secondary {
+    background-color: #ae371d !important;
+    border-color: #ae371d !important;
+}
+#root > section.grama > div > div > div > div > div > div > a.btn-secondary {
+    background-color:#3f7d3a !important;
+    border-color: #3f7d3a !important;
+}
+#root > section.normal > div > div > div > div > div > div > a.btn-secondary {
+    background-color:#76515c !important;
+    border-color: #76515c !important;
+}
+.img-thumbnail {
+    border: 1px solid #fdca05 !important;
+}
+#root > section.cardCatalog.grama > div:nth-child(2) > nav > ul > li.page-item.active > a {
+    color: white;
+    background: #3f7d3a;
+    border: #3f7d3a;
+}
+#root > section.cardCatalog.grama > div:nth-child(2) > nav > ul > li > a {
+    color: #3f7d3a
+}
+#root > section.cardCatalog.fogo > div:nth-child(2) > nav > ul > li.page-item.active > a {
+    color: white;
+    background: #ae371d;
+    border:#ae371d;
+}
+#root > section.cardCatalog.fogo > div:nth-child(2) > nav > ul > li > a {
+    color: #ae371d
+}
+#root > section.cardCatalog.normal > div:nth-child(2) > nav > ul > li.page-item.active > a {
+    color: white;
+    background: #76515c;
+    border:#76515c;
+}
+#root > section.cardCatalog.normal > div:nth-child(2) > nav > ul > li > a {
+    color: #76515c
+}
+#root > section.cardCatalog > div > nav > ul > li.page-item.disabled > a {
+    color: grey;
+    cursor: not-allowed;
+    pointer-events: all;
+}
+a.btn.btn-secondary.OutroTeste {
+    color: black !important;
+}

@@ -1,0 +1,51 @@
+#root > header {
+    background-color: #3367b0;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+    color: white
+}
+#root > header > div > div > div:nth-child(2) {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+}
+#root > header > div > div > i,
+#openListCart {
+    font-size: 27px;
+    color: #fdca05;
+    position: relative;
+    z-index: 50;
+    float: right;
+}
+#cartResumo {
+    position: absolute;
+    background: white;
+    top: 60px;
+    box-shadow: 0px 0px 2px black;
+    right: 20px;
+}
+#root > header > div > div > div:nth-child(1) > a > img {
+    width: 150px;
+}
+/* tipo normal css */
+#root > header.normal {
+    background-color:#76515c;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+    color: white
+}
+/* tipo fogo css */
+#root > header.fogo {
+    background-color:#ae371d;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+    color: white
+}
+/* tipo grama css */
+#root > header.grama {
+    background-color:#3f7d3a;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+    color: white
+}
